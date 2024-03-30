@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Calculator</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="center-text">
+        <h1 class="attractive-text">GUVI TASK - CALCULATOR</h1>
+    </div>    
+
+    <div class="container">
+         <div class="calculator">
+            <input type="text" id="display" placeholder="Enter Expression" autofocus>
+            <div class="buttons">
+                <button onclick="KEYS('7')">7</button>
+                <button onclick="KEYS('8')">8</button>
+                <button onclick="KEYS('9')">9</button>
+                <button onclick="KEYS('+')">+</button>
+                <button onclick="KEYS('4')">4</button>
+                <button onclick="KEYS('5')">5</button>
+                <button onclick="KEYS('6')">6</button>
+                <button onclick="KEYS('-')">-</button>
+                <button onclick="KEYS('1')">1</button>
+                <button onclick="KEYS('2')">2</button>
+                <button onclick="KEYS('3')">3</button>
+                <button onclick="KEYS('*')">*</button>
+                <button onclick="KEYS('0')">0</button>
+                <button onclick="KEYS('.')">.</button>
+                <button onclick="evaluateExpression()">=</button>
+                <button onclick="KEYS('/')">/</button>
+                <button onclick="KEYS('%')">%</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="clearAllCalculations()">CH</button>
+                <button onclick="removeLastCalculation()">RC</button>
+            </div>
+        </div>
+
+        <div class="calc-history">
+            <h3>Calculation History</h3>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>

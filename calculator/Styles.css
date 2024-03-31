@@ -36,7 +36,7 @@ body {
 }
 
 #display {
-    width: calc(100% - 60px); /* Adjusted width to account for increased padding */
+    width: calc(100% - 40px); /* Adjusted width to account for increased padding */
     margin-bottom: 20px;
     padding: 20px;
     font-size: 32px;

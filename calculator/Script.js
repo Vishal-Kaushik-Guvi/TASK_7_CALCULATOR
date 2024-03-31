@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearDisplay();
             } else if (value === '⌫') {
                 deleteLastCharacter();
-            } else if (value === 'CH') {
+            } else if (value === 'MC') {
                 clearAllCalculations();
-            } else if (value === 'RC') {
+            } else if (value === 'ML') {
                 removeLastCalculation();
             } else {
                 alert('Invalid input!');
